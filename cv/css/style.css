@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: #85586F;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 900;
+    color: aqua;
+}
+
+.top {
+    background-color: #DFD3C3;
+    padding: 75px 0 100px 0;
+    text-align: center;
+
+    color: #85586F;
+    font-size: 24px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.top > h1 {
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.middle {
+    background-color: #F8EDE3;
+    padding: 20px 0 20px 100px;
+
+    font-size: 16pt;
+    font-family: Lato;
+    
+}
+
+.middle > dl {
+    margin-bottom: 0;
+}
+
+.middle > h2 {
+    color: #5d3e4e;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.middle > h3 {
+    color: #5d3e4e;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.middle > hr {
+    border-top: 5px solid #DFD3C3;
+}
+
+.middle > img {
+    padding: 0 0 0 39%;
+}
+
+.bottom {
+    background-color: #DFD3C3;
+    text-align: center;
+    border: solid #5d3e4e;
+    padding: 0 0 10px 0;
+}
+
+.bottom > h3{
+    margin-top: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+.generic-code {
+    position: absolute;
+    left: 100px;
+    border: solid;
+}
+
+.music-note {
+    position: absolute;
+    right: 100px;
+    border: solid;
+}
+
+.languages {
+    column-count: 2;
+}
+
+.languages > ul {
+    float: left;
+}
+
+.languages > img {
+    padding: 0 0 0 100px;
+}
+
+.experience {
+    column-count: 2;
+}
+
+.experience > dl {
+    float: right;
+}
+
+.skills {
+    column-count: 2;
+}
+
+.skills > dl {
+    float: left;
+}
+.skills > img {
+    padding: 0 0 0 100px;
+}
+
+.contact {
+    background-color: #DFD3C3;
+}
+
+.contop {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    padding: 50px;
+    margin: auto;
+    background-color: #F8EDE3;
+    box-shadow: 10px 10px;
+    border: solid;
+}
